@@ -66,65 +66,26 @@
 <script>
     addEventListener("load",loadHeadLine);
     let result = 0
-    let Acount = 0
-    let Bcount =0
-    let Ccount = 0
-    let Dcount = 0
-    let operatorPending = false
     let OperateCount = ""
+    let operatorPending = false
+    let pointOn = true
     function appendnum(num) {
+        if(operatorPending||document.getElementById("result").value==0) {document.getElementById("result").value = ""}
         document.getElementById("result").value += num
         operatorPending = false;
     }
     function point() {
+        if(!pointOn) return
         document.getElementById("result").value += ".";
+        pointOn = false
     }
     function Operate(op) {
         let input = Number(document.getElementById("result").value)
-        if (input !== 0) {
             result = input
             OperateCount = op
-            document.getElementById("result").value = ""
             operatorPending = true
-        }
-        else{
-            OperateCount = op
-        }
+            pointOn = true
     }
-        /*
-    }
-    function add() {
-        if (!operatorPending) {
-            result = Number(document.getElementById("result").value);
-            Acount += 1
-            document.getElementById("result").value = ""
-            operatorPending = true
-        }
-    }
-    function minus() {
-        if (!operatorPending) {
-            result = Number(document.getElementById("result").value);
-            Bcount += 1
-            document.getElementById("result").value = ""
-            operatorPending = true
-        }
-    }
-    function multiply() {
-        if (!operatorPending) {
-            result = Number(document.getElementById("result").value);
-            Ccount += 1
-            document.getElementById("result").value = ""
-            operatorPending = true
-        }
-    }
-    function divide() {
-        if (!operatorPending) {
-            result = Number(document.getElementById("result").value);
-            Dcount += 1
-            document.getElementById("result").value = ""
-            operatorPending = true
-        }
-            */
         function equal(a) {
             a = Number(document.getElementById("result").value)
             if (OperateCount === 1) {
@@ -148,23 +109,17 @@
                     document.getElementById("result").value = "错误，除数不能为0"
                 }
             }
-            Acount = 0
-            Bcount = 0
-            Ccount = 0
-            Dcount = 0
             OperateCount = ""
             operatorPending = false
+            pointOn = true
         }
 
         function AC() {
             result = ""
             document.getElementById("result").value = result;
-            Acount = 0
-            Bcount = 0
-            Ccount = 0
-            Dcount = 0
             OperateCount = ""
             operatorPending = false
+            pointOn = true
         }
 
 </script>
