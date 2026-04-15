@@ -1,0 +1,108 @@
+{"frames": {
+
+"未标题-1_0001_图层-12.png":
+{
+	"frame": {"x":0,"y":0,"w":178,"h":226},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":178,"h":226},
+	"sourceSize": {"w":178,"h":226}
+},
+"未标题-1_0002_图层-11.png":
+{
+	"frame": {"x":178,"y":0,"w":178,"h":226},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":178,"h":226},
+	"sourceSize": {"w":178,"h":226}
+},
+"未标题-1_0003_图层-10.png":
+{
+	"frame": {"x":0,"y":226,"w":178,"h":226},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":178,"h":226},
+	"sourceSize": {"w":178,"h":226}
+},
+"未标题-1_0004_图层-9.png":
+{
+	"frame": {"x":178,"y":226,"w":178,"h":226},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":178,"h":226},
+	"sourceSize": {"w":178,"h":226}
+},
+"未标题-1_0005_图层-8.png":
+{
+	"frame": {"x":0,"y":452,"w":178,"h":226},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":178,"h":226},
+	"sourceSize": {"w":178,"h":226}
+},
+"未标题-1_0006_图层-7.png":
+{
+	"frame": {"x":178,"y":452,"w":178,"h":226},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":178,"h":226},
+	"sourceSize": {"w":178,"h":226}
+},
+"未标题-1_0007_图层-6.png":
+{
+	"frame": {"x":0,"y":678,"w":178,"h":226},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":178,"h":226},
+	"sourceSize": {"w":178,"h":226}
+},
+"未标题-1_0008_图层-5.png":
+{
+	"frame": {"x":178,"y":678,"w":178,"h":226},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":178,"h":226},
+	"sourceSize": {"w":178,"h":226}
+},
+"未标题-1_0009_图层-4.png":
+{
+	"frame": {"x":0,"y":904,"w":178,"h":226},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":178,"h":226},
+	"sourceSize": {"w":178,"h":226}
+},
+"未标题-1_0010_图层-3.png":
+{
+	"frame": {"x":178,"y":904,"w":178,"h":226},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":178,"h":226},
+	"sourceSize": {"w":178,"h":226}
+},
+"未标题-1_0011_图层-2.png":
+{
+	"frame": {"x":0,"y":1130,"w":178,"h":226},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":178,"h":226},
+	"sourceSize": {"w":178,"h":226}
+},
+"未标题-1_0012_图层-1.png":
+{
+	"frame": {"x":178,"y":1130,"w":178,"h":226},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":178,"h":226},
+	"sourceSize": {"w":178,"h":226}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "anstand.png",
+	"format": "RGBA8888",
+	"size": {"w":356,"h":1356},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:01749e3078a1b67230f7fd81afa543a2:9e32bc6b021488cc9d959c55e0f2eea8:ac7d19717d89639378f5aa72858f099a$"
+}
+}

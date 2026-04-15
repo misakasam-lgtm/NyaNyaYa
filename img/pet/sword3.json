@@ -1,0 +1,108 @@
+{"frames": {
+
+"图层-1.png":
+{
+	"frame": {"x":0,"y":0,"w":250,"h":337},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":250,"h":337},
+	"sourceSize": {"w":250,"h":337}
+},
+"图层-2.png":
+{
+	"frame": {"x":250,"y":0,"w":250,"h":337},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":250,"h":337},
+	"sourceSize": {"w":250,"h":337}
+},
+"图层-3.png":
+{
+	"frame": {"x":0,"y":337,"w":250,"h":337},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":250,"h":337},
+	"sourceSize": {"w":250,"h":337}
+},
+"图层-4.png":
+{
+	"frame": {"x":250,"y":337,"w":250,"h":337},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":250,"h":337},
+	"sourceSize": {"w":250,"h":337}
+},
+"图层-5.png":
+{
+	"frame": {"x":0,"y":674,"w":250,"h":337},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":250,"h":337},
+	"sourceSize": {"w":250,"h":337}
+},
+"图层-6.png":
+{
+	"frame": {"x":250,"y":674,"w":250,"h":337},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":250,"h":337},
+	"sourceSize": {"w":250,"h":337}
+},
+"图层-7.png":
+{
+	"frame": {"x":0,"y":1011,"w":250,"h":337},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":250,"h":337},
+	"sourceSize": {"w":250,"h":337}
+},
+"图层-8.png":
+{
+	"frame": {"x":250,"y":1011,"w":250,"h":337},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":250,"h":337},
+	"sourceSize": {"w":250,"h":337}
+},
+"图层-9.png":
+{
+	"frame": {"x":0,"y":1348,"w":250,"h":337},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":250,"h":337},
+	"sourceSize": {"w":250,"h":337}
+},
+"图层-10.png":
+{
+	"frame": {"x":250,"y":1348,"w":250,"h":337},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":250,"h":337},
+	"sourceSize": {"w":250,"h":337}
+},
+"图层-11.png":
+{
+	"frame": {"x":0,"y":1685,"w":250,"h":337},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":250,"h":337},
+	"sourceSize": {"w":250,"h":337}
+},
+"图层-12.png":
+{
+	"frame": {"x":250,"y":1685,"w":250,"h":337},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":250,"h":337},
+	"sourceSize": {"w":250,"h":337}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "sword.png",
+	"format": "RGBA8888",
+	"size": {"w":500,"h":2022},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:a84e1dcd7e5e72f9d3574b8e8ee917c2:4e021c97c0d62683ed59ed239734c247:2597d2c8665b9351097b94acbdb5cdb3$"
+}
+}

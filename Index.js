@@ -16,6 +16,14 @@
             sword:{src:"./img/pet/sword2.png",json:"./img/pet/sword2.json",speed:30}
                 }
         },  
+        {name:"AN",
+        actions:{
+            stand:{src:"./img/pet/sword3.png",json:"./img/pet/sword3.json",speed:120},
+            eat:{src:'./img/pet/eat3.png',json:'./img/pet/eat3.json',speed:100},
+            wait:{src:'./img/pet/pet3an.png',json:'./img/pet/pet3an.json',speed:100},
+            sword:{src:"./img/pet/sword3.png",json:"./img/pet/sword3.json",speed:120}
+                }
+        }
     ]
     const replyWordIndex = [null,
         [
@@ -31,12 +39,21 @@
         '电压检测中...',
         '节能模式',
         'Shiro是...自动歼灭AI-Z07'
+        ],
+        [
+        '嘿嘿嘿，nya哈哈哈',
+        '英文...有点难',
+        '我是不需要的吧',
+        '话说贝斯手还没上线吗？',
+        '作者好懒',
+        '能给我喝奶茶吗？'
         ]
         ]
     const  waitWordIndex = [
         null,
         '天气不错喵',
-        '待机中...'
+        '待机中...',
+        '欢迎来到乐队'
     ]
     const feedRelyTextIndex=[null,
             [
@@ -54,16 +71,26 @@
              '进入高性能模式',
              '能力增幅200%',
              '过载...语言系统可能混乱，诶嘿嘿'
+             ],
+             [
+             '哦哦，这是打折奶茶呢',
+             '好喝诶，你从哪买到的',
+             '这不是我一直想要的那个限定！',
+             '你买这个很不容易吧',
+             '喝完这个就有力气战斗了！',
+             '有点像我留学喝过的那个...'
              ]
 
          ]
     //战斗用
     const playerBattleIndex = [
         null,
-        {name:'Aka',life:100,speed:10,attack:50,heal:60,
+        {name:'Aka',life:120,speed:10,attack:50,heal:80,
         skill1:'攻击',skillkey1:'attack',skill2:'治愈',skillkey2:'heal',skill3:'吸血',skillkey3:'vampire'},
         {name:'Shiro',life:70,speed:13,attack:80,heal:50,
-        skill1:'电击',skillkey1:'attack',skill2:'修理',skillkey2:'heal',skill3:'拷贝',skillkey3:'vampire'},   
+        skill1:'电击',skillkey1:'attack',skill2:'修理',skillkey2:'heal',skill3:'拷贝',skillkey3:'vampire'},
+        {name:'AN',life:120,speed:10,attack:50,heal:80,
+        skill1:'吉他',skillkey1:'attack',skill2:'救我',skillkey2:'heal',skill3:'吸你',skillkey3:'vampire'},   
     ]
      const enemyAnimeIndex = [
         null,
