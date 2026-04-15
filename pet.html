@@ -376,6 +376,9 @@
         }
         .petChooseCard{
         display: none;
+        flex-wrap: wrap;
+        max-height: 60vh;
+        overflow-y: auto;
         align-items: center;
         justify-content: center;
         position: fixed;
@@ -407,7 +410,7 @@
         .petchooseImg{
             width: clamp(80px,12vw,200px);
             height: clamp(100px,16vw,300px);
-            margin: 20px;
+            margin: 5px;
             transition: 0.5s;
             border: 5px solid  white;
             border-radius: 15px;
