@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>猫の神社</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
     <style>
         body{
             background-color: #FFC1CC;
@@ -83,10 +83,10 @@
     <label for="result" >解签</label><textarea id="result" type="text" readonly placeholder="祝你好运喵"></textarea>
 </div>
 </div>
-<img src="img/right01.jpg" alt="图没了喵" style="position: fixed;right: 1px;bottom:1px;width: auto;max-height:30vh">
-<img src="img/left01.jpg" alt="图没了喵" style="position: fixed;left: 1px;bottom:1px;width: auto;max-height:30vh">
+<img src="../img/right01.jpg" alt="图没了喵" style="position: fixed;right: 1px;bottom:1px;width: auto;max-height:30vh">
+<img src="../img/left01.jpg" alt="图没了喵" style="position: fixed;left: 1px;bottom:1px;width: auto;max-height:30vh">
 </body>
-<script src="HeadLine.js"></script>
+<script src="../HeadLine.js"></script>
 <script>
 addEventListener("load",loadHeadLine)
 const canvas = document.getElementById('canvas');
@@ -161,7 +161,7 @@ addEventListener('load', logCheck);
 function logCheck() {
     if (!playerID) {
         alert("请先登录喵")
-        window.location.href = "./index.html";
+        window.location.href = "../";
     }
 }
 const results = [

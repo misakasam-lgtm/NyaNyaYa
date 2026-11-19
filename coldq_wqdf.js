@@ -116,7 +116,7 @@ async function loginUser() {
         localStorage.setItem('canChangePet', result.changeON)
         sessionStorage.setItem("justLoggedIn", "true")
         console.log(result.message);
-        window.location.href = "./MainPage.html";
+        window.location.href = "./MainPage/";
     } catch (error) {
         alert("未知错误");
         console.log(error);

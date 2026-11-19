@@ -1,7 +1,16 @@
 
+     const HEADLINE_BASE_URL = new URL("./", document.currentScript.src).href;
+
      async function loadHeadLine() {
-         const res = await fetch("topLine.html")
-         document.getElementById("HeadLine").innerHTML = await res.text();
+         const res = await fetch(`${HEADLINE_BASE_URL}topLine.html`)
+         const headLineEl = document.getElementById("HeadLine");
+         headLineEl.innerHTML = await res.text();
+         headLineEl.querySelectorAll("a[href]").forEach(a => {
+             a.setAttribute("href", new URL(a.getAttribute("href"), HEADLINE_BASE_URL).href);
+         });
+         headLineEl.querySelectorAll("img[src]").forEach(img => {
+             img.setAttribute("src", new URL(img.getAttribute("src"), HEADLINE_BASE_URL).href);
+         });
 
          const SideShowBtm = document.getElementById('sideShowBtm');
          const shutdownBtm = document.getElementById('SideBackBtm');

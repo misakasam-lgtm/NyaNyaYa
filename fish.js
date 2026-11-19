@@ -1,10 +1,11 @@
+    const FISH_BASE_URL = new URL("./", document.currentScript.src).href;
     const playerID = localStorage.getItem('logPlayerID');
     const playerName = localStorage.getItem('logPlayerName');
 
     async function loadFish() {
         if (!playerID) {
             alert("请先登录喵")
-            window.location.href = "./index.html";
+            window.location.href = FISH_BASE_URL;
         }
         const res = await fetch("https://rvzfjypuxbptqxyxcmzu.supabase.co/functions/v1/addfish", {
             method: "POST",
@@ -55,7 +56,7 @@
     async function feedPet(amount) {
         if (!playerID) {
             alert("请先登录喵")
-            window.location.href = "./index.html";
+            window.location.href = FISH_BASE_URL;
         }
         await addFish(-amount);
         const res = await fetch("https://rvzfjypuxbptqxyxcmzu.supabase.co/functions/v1/addfish", {

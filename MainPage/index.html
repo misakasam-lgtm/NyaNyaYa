@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>公会大厅</title>
-      <link rel="stylesheet" href="./style.css">
+      <link rel="stylesheet" href="../style.css">
     <style>
        .information{
            text-align: left;
@@ -78,37 +78,37 @@
     <div class="card">
         <p>主游戏（推荐体验）</p>
         <div class="button-container">
-            <a href="pet.html"><button class="MainBotton">宠物对战</button></a>
-            <a href="cat.html"><button class="MainBotton">猫咪赛跑</button></a>
+            <a href="../pet/"><button class="MainBotton">宠物对战</button></a>
+            <a href="../cat/"><button class="MainBotton">猫咪赛跑</button></a>
         </div>
     </div>
     <div class="card">
         <p>小工具</p>
         <div class="button-container">
-            <a href="BMICalculator.html"><button class="MainBotton">BMI计算器</button></a>
-            <a href="calculator.html"><button class="MainBotton">普通计算器(测试版)</button></a>
-            <a href="future.html"><button class="MainBotton">占卜</button></a>
+            <a href="../BMICalculator/"><button class="MainBotton">BMI计算器</button></a>
+            <a href="../calculator/"><button class="MainBotton">普通计算器(测试版)</button></a>
+            <a href="../future/"><button class="MainBotton">占卜</button></a>
         </div>
     </div>
 
     <div class="card">
         <p>小游戏</p>
         <div class="button-container">
-            <a href="Snake.html"><button class="MainBotton">贪吃蛇</button></a>
-            <a href="new_bird.html"><button class="MainBotton">小鸟游戏(新)</button></a>
+            <a href="../Snake/"><button class="MainBotton">贪吃蛇</button></a>
+            <a href="../new_bird/"><button class="MainBotton">小鸟游戏(新)</button></a>
         </div>
     </div>
 </div>
 
 </body>
-<script src="fish.js"></script>
-<script src="HeadLine.js"></script>
+<script src="../fish.js"></script>
+<script src="../HeadLine.js"></script>
 <script>
     const petID = localStorage.getItem('petID')
     const userHeadIndex=[null,
-        './img/pet/pet1intro.jpg',
-        './img/pet/pet2intro.jpg',
-        './img/pet/pet3intro.png'
+        '../img/pet/pet1intro.jpg',
+        '../img/pet/pet2intro.jpg',
+        '../img/pet/pet3intro.png'
     ]
 
     addEventListener("load",loadHeadLine)

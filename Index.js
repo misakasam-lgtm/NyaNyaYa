@@ -2,26 +2,26 @@
         null,
         {name:"Aka",
         actions:{
-            stand:{src:'./img/pet/stand.png',json:'./img/pet/stand.json',speed:200},
-            eat:{src:"./img/pet/eat.png",json:"./img/pet/eat.json",speed:100},
-            wait:{src:"./img/pet/wait.png",json:"./img/pet/wait.json",speed:100},
-            sword:{src:"./img/pet/sword.png",json:"./img/pet/sword.json",speed:60}
+            stand:{src:'../img/pet/stand.png',json:'../img/pet/stand.json',speed:200},
+            eat:{src:"../img/pet/eat.png",json:"../img/pet/eat.json",speed:100},
+            wait:{src:"../img/pet/wait.png",json:"../img/pet/wait.json",speed:100},
+            sword:{src:"../img/pet/sword.png",json:"../img/pet/sword.json",speed:60}
                 }
         },
         {name:"Shiro",
         actions:{
-            stand:{src:'./img/pet/stand2.png',json:'./img/pet/stand2.json',speed:100},
-            eat:{src:"./img/pet/eat2.png",json:"./img/pet/eat2.json",speed:100},
-            wait:{src:"./img/pet/wait2.png",json:"./img/pet/wait2.json",speed:100},
-            sword:{src:"./img/pet/sword2.png",json:"./img/pet/sword2.json",speed:30}
+            stand:{src:'../img/pet/stand2.png',json:'../img/pet/stand2.json',speed:100},
+            eat:{src:"../img/pet/eat2.png",json:"../img/pet/eat2.json",speed:100},
+            wait:{src:"../img/pet/wait2.png",json:"../img/pet/wait2.json",speed:100},
+            sword:{src:"../img/pet/sword2.png",json:"../img/pet/sword2.json",speed:30}
                 }
         },  
         {name:"AN",
         actions:{
-            stand:{src:"./img/pet/sword3.png",json:"./img/pet/sword3.json",speed:120},
-            eat:{src:'./img/pet/eat3.png',json:'./img/pet/eat3.json',speed:100},
-            wait:{src:'./img/pet/pet3an.png',json:'./img/pet/pet3an.json',speed:100},
-            sword:{src:"./img/pet/sword3.png",json:"./img/pet/sword3.json",speed:120}
+            stand:{src:"../img/pet/sword3.png",json:"../img/pet/sword3.json",speed:120},
+            eat:{src:'../img/pet/eat3.png',json:'../img/pet/eat3.json',speed:100},
+            wait:{src:'../img/pet/pet3an.png',json:'../img/pet/pet3an.json',speed:100},
+            sword:{src:"../img/pet/sword3.png",json:"../img/pet/sword3.json",speed:120}
                 }
         }
     ]
@@ -96,7 +96,7 @@
         null,
         {name:"enemy1",
         actions:{
-            stand:{src:'./img/pet/enemy1.png',json:'./img/pet/enemy1.json',speed:200},
+            stand:{src:'../img/pet/enemy1.png',json:'../img/pet/enemy1.json',speed:200},
                 }
         }   
     ]

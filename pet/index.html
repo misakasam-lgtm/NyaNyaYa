@@ -24,7 +24,7 @@
               background-position: center; 
               background-repeat: no-repeat;
               z-index: -1;
-              background-image: url("img/pet/background.jpg");       
+              background-image: url("../img/pet/background.jpg");       
              }
         
         #gameCanvas {
@@ -236,7 +236,7 @@
         right: 50%;
         width: clamp(300px,100vw,800px);
         height: clamp(200px,70vw,400px);
-        background-image: url("img/pet/battlebackground.jpg");
+        background-image: url("../img/pet/battlebackground.jpg");
         background-size: cover;      
         background-position: center; 
         background-repeat: no-repeat;
@@ -488,18 +488,18 @@
     <div id='petChooseCard' class='petChooseCard'>
     <button id="chooseExit" class="exitBtm">X</button>
     <h1 style="font-size: clamp(18px,4vw,30px);text-align: center;">选择宠物</h1>
-    <img id="petChoose1" class="petchooseImg" src="./img/pet/pet1intro.jpg" alt="Aka">
-    <img id="petChoose2" class="petchooseImg" src="./img/pet/pet2intro.jpg" alt="Shiro">
-    <img id="petChoose3" class="petchooseImg" src="./img/pet/pet3intro.png" alt="AN">
+    <img id="petChoose1" class="petchooseImg" src="../img/pet/pet1intro.jpg" alt="Aka">
+    <img id="petChoose2" class="petchooseImg" src="../img/pet/pet2intro.jpg" alt="Shiro">
+    <img id="petChoose3" class="petchooseImg" src="../img/pet/pet3intro.png" alt="AN">
     </div>
     
 
     
 
 </body>
-<script src="fish.js"></script>
-<script src="animetion.js"></script>
-<script src="Index.js"></script>
+<script src="../fish.js"></script>
+<script src="../animetion.js"></script>
+<script src="../Index.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@tweenjs/tween.js@18.6.4/dist/tween.umd.js"></script>
 <script>
     let canBattle=false
@@ -519,7 +519,7 @@
          document.getElementById('petName').textContent=petAnimeIndex[petID].name
          document.getElementById('alernText').textContent=waitWordIndex[petID]
          await pet.preLoad()
-         canBattle=true}catch{alert('预加载错误'),window.location.href = "./MainPage.html"}
+         canBattle=true}catch{alert('预加载错误'),window.location.href = "../MainPage/"}
          finally{loadAnime("stop")}
      })
 
